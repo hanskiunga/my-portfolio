@@ -1,0 +1,31 @@
+
+.name {
+    text-align: center;
+}
+.navbar {
+    overflow: hidden;
+    background-color:  #333;
+}
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar hover {
+    background-color: yellow;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+body {
+    color:rgb(129, 3, 3);
+    font-size: 250%;
+}
+p {
+    text-align: center;
+}
