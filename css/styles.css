@@ -1,7 +1,5 @@
-
-h1 {
+.name {
     text-align: center;
-    
 }
 .navbar {
     overflow: hidden;
@@ -19,11 +17,21 @@ h1 {
     background-color: yellow;
     color: black;
 }
+
+.column {
+    width: 50% ;
+    float: left;
+   
+
+}
 img {
     width: 600px;
 }
 ul {
-    list-style: square;
+    list-style: none;
+}
+.proj {
+    font-size: 180%;
 }
 @media screen and (min-width: 480px) and (max-width: 768px){
     body {
@@ -33,6 +41,9 @@ ul {
     }
     h1{
         color: black;
+    }
+    .navbar a {
+        color: maroon;
     }
     
 }
